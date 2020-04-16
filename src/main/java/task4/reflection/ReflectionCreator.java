@@ -40,6 +40,6 @@ public class ReflectionCreator {
         character = characterClss.getConstructor(params).newInstance(name, race, characterClass);
         return character;
     }
-    
+
 
 }
